@@ -17,10 +17,6 @@ body {
     text-decoration: none;
   }
   
-  li a.active {
-    background-color: plum;
-    color: black;
-  }
   
   li a:hover:not(.active) {
     background-color: steelblue;
