@@ -2,6 +2,7 @@
 body {  
     background-color: MediumAquaMarine;
   }
+  /*menu*/ 
   ul {
     list-style-type: none;
     margin: 0;
@@ -17,7 +18,7 @@ body {
     text-decoration: none;
   }
   
-  
+  /*erover heen met muis verandert kleur*/ 
   li a:hover:not(.active) {
     background-color: steelblue;
     color: black;}
