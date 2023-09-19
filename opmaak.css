@@ -34,3 +34,7 @@ body {
       text-transform: serif;
       color: black;
     }
+
+    p.ex1 {
+      text-decoration-style: solid;
+     }
