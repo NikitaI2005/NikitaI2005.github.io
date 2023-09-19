@@ -10,8 +10,7 @@ body {
     width: 200px;
     background-color: plum;
     float: right; 
-    height: 100%;
-  overflow: auto;
+    height: 2000px
   }
   
   li a {
