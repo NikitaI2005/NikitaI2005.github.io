@@ -10,7 +10,7 @@ body {
     width: 200px;
     background-color: beige;
     float: right; 
-    height: 700px;
+    height: 100%; 
   }
   
   li a {
@@ -33,4 +33,5 @@ body {
       text-align: center;
       text-transform: serif;
       color: black;
+      
     }
