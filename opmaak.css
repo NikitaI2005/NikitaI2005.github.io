@@ -39,7 +39,8 @@ body {
     {
       outline-color: #000;
       outline-style: solid;
-      
+      width: 320px;
+      padding: 10px;
     }
    
    
