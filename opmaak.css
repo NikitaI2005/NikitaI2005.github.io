@@ -44,6 +44,29 @@ body {
       padding: 10px;
     }
    
-   
+   .p2
+   {
+     background-color: paleturquoise;
+     outline-color: #000;
+     outline-style: solid;
+     width: 320px;
+     padding: 10px;
+   }
  
+   .p3
+   {
+    background-color: paleturquoise;
+    outline-color: #000;
+    outline-style: solid;
+    width: 320px;
+    padding: 10px;
+   }
  
+   .p4
+   {
+     background-color: paleturquoise;
+     outline-color: #000;
+     outline-style: solid;
+     width: 320px;
+     padding: 10px;
+   }
