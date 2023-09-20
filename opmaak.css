@@ -37,6 +37,7 @@ body {
 
     .p1
     {
+      background-color: paleturquoise;
       outline-color: #000;
       outline-style: solid;
       width: 320px;
