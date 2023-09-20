@@ -35,7 +35,13 @@ body {
       color: black;
     }
 
-    p1 {outline-color: #000;
-      outline-style: outset;}
+    .p1
+    {
+      outline-color: #000;
+      outline-style: solid;
+      
+    }
    
+   
+ 
  
