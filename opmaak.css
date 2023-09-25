@@ -1,7 +1,9 @@
 /*Achtergrond*/ 
 body {  
     background-color: MediumAquaMarine;
+    background-image:url();
   }
+
   /*menu*/ 
   ul {
     list-style-type: none;
