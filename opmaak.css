@@ -158,7 +158,7 @@ img
 .top-level-menu li:hover > ul
 {
     /* On hover, display the next level's menu */
-    display: inline;
+    display: block;
 }
 
 
