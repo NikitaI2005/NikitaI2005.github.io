@@ -32,6 +32,7 @@
 .submenu-item {
   padding: 10px;
   color: white;
+  float:left
 }
 
 .dropdown:hover .submenu {
