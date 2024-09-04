@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   width: 200px;
+  float:right
 }
 
 .menu-item {
@@ -21,7 +22,7 @@
   margin: 0;
   padding: 0;
   display: none;
-  position: right;
+  position: absolute;
   top: 0;
   right: 100%; /* Zorgt ervoor dat het submenu naar links uitklapt */
   background-color: #444;
