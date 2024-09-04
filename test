@@ -13,7 +13,6 @@
   padding: 10px;
   text-align: left;
   cursor: pointer;
-  float:right
 }
 
 /* Submenu stijl */
@@ -22,7 +21,7 @@
   margin: 0;
   padding: 0;
   display: none;
-  position: absolute;
+  position: right;
   top: 0;
   right: 100%; /* Zorgt ervoor dat het submenu naar links uitklapt */
   background-color: #444;
