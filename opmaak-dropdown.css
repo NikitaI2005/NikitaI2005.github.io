@@ -71,3 +71,7 @@ body
 {
   background-color:steelblue;
 }
+
+li a:hover:not(.active) {
+  background-color: steelblue;
+  color: black;}
