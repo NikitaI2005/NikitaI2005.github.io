@@ -65,3 +65,8 @@ body
     padding-bottom: 20px;
     padding-left: 20px;
   }
+
+  a:hover, a:active 
+{
+  background-color:steelblue;
+}
