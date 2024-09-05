@@ -11,9 +11,9 @@
 
 .menu-item {
   position: relative;
-  background-color: #333;
-  color: white;
-  padding: 10px;
+  background-color:cornflowerblue;
+  color: black;
+  padding: 8px 16px;
   text-align: left;
   cursor: pointer;
 }
