@@ -17,24 +17,6 @@ body
     height: 1400px;
   }
   
-  /* Submenu stijl */
-.submenu{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 100%; /* Zorgt ervoor dat het submenu naar links uitklapt */
-  background-color: cornflowerblue;
-  min-width: 150px;
-}
-
-/* Stijl voor submenu items */
-.submenu-item {
-  padding: 8px 16px;
-  color: black;
-}
 
   li a 
   {

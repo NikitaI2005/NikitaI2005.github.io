@@ -42,3 +42,10 @@
 .dropdown:hover .submenu-item:hover {
   background-color: #555;
 }
+
+/*Achtergrond*/ 
+body 
+  {  
+    background-color: steelblue;
+  
+  }
