@@ -27,7 +27,7 @@ li a {
 
 /* Hover effect op menu items */
 li a:hover:not(.active) {
-  background-color: cornflowerblue;
+  background-color: steelblue;
   color: black;
 }
 
@@ -40,13 +40,13 @@ ul .submenu {
   position: absolute;
   top: 0;
   right: 100%; /* Laat het submenu naar links uitschuiven */
-  background-color: steelblue;
+  background-color: cornflowerblue;
   min-width: 150px;
 }
 
 /* Submenu-items */
 ul .submenu li a {
-  background-color: steelblue;
+  background-color: cornflowerblue;
   padding: 8px 16px;
 }
 
@@ -57,7 +57,7 @@ li:hover .submenu {
 
 /* Hover effect op submenu items */
 ul .submenu li a:hover {
-  background-color: cornflowerblue;
+  background-color: steelblue;
 }
 
 /* Titel van de pagina */
