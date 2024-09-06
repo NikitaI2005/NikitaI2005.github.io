@@ -27,7 +27,7 @@ li a {
 
 /* Hover effect op menu items */
 li a:hover:not(.active) {
-  background-color: steelblue;
+  background-color: cornflowerblue;
   color: black;
 }
 
