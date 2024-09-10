@@ -51,6 +51,26 @@ ul .submenu li a {
   padding: 8px 16px;
 }
 
+/* Subsubmenu dat naar links uitschuift */
+ul .subsubmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Verberg het submenu standaard */
+  position: absolute;
+  top: 0;
+  right: 100%; /* Laat het submenu naar links uitschuiven */
+  background-color: cornflowerblue;
+  width: auto;
+  padding: 20px 16px;
+}
+
+/* Subsubmenu-items */
+ul .subsubmenu li a {
+  background-color: cornflowerblue;
+  padding: 8px 16px;
+}
+
 /* Toon het submenu bij hover over het hoofdmenu-item */
 li:hover .submenu {
   display: block;
