@@ -51,24 +51,17 @@ ul .submenu li a {
   padding: 8px 16px;
 }
 
-/* Subsubmenu dat naar links uitschuift */
+/* Tweede submenu dat uit het eerste submenu uitschuift */
 ul .submenu .submenu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: none; /* Verberg het submenu standaard */
-  position: absolute;
   top: 0;
-  right: 100%; /* Laat het submenu naar links uitschuiven */
+  right: 100%; /* Het tweede submenu schuift naar links uit */
   background-color: cornflowerblue;
-  width: auto;
-  padding: 20px 16px;
+  display: none; /* Verberg het tweede submenu standaard */
 }
 
-/* Subsubmenu-items */
-ul .submenu .submenu li a {
-  background-color: cornflowerblue;
-  padding: 8px 16px;
+/* Toon het tweede submenu bij hover op het submenu-item */
+.submenu li:hover > .submenu {
+  display: block;
 }
 
 /* Toon het submenu bij hover over het hoofdmenu-item */
