@@ -41,7 +41,7 @@ ul .submenu {
   top: 0;
   right: 100%; /* Laat het submenu naar links uitschuiven */
   background-color: cornflowerblue;
-  min-width: 10px;
+  width: auto;
   padding: 20px 16px;
 }
 
