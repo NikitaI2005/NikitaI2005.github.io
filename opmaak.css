@@ -1,81 +1,112 @@
 /*Achtergrond*/ 
-body 
-  {  
-    background-color: steelblue;
-  
-  }
+body {  
+  background-color: steelblue;
+}
 
-  /*menu*/ 
-  ul 
-  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color:cornflowerblue;
-    float: right; 
-    height: 1400px;
-  }
-  
+/* Verticaal menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: cornflowerblue;
+  float: right; 
+  height: 1400px;
+}
 
-  li a 
-  {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
+li {
+  position: relative; /* Nodig voor het submenu */
+}
 
-  /*erover heen met muis verandert kleur*/ 
-  li a:hover:not(.active) {
-    background-color: steelblue;
-    color: black;}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 
-    /*Titel van de pagina*/ 
-    h1
-    {
-      text-align: center;
-      text-transform: serif;
-      color: black;
-      border: 1px solid black;
-      background-color: whitesmoke;
-      padding-top: 20px;
-      padding-right: 20px;
-      padding-bottom: 20px;
-      padding-left: 20px;
-    }
+/* Hover effect op menu items */
+li a:hover:not(.active) {
+  background-color: steelblue;
+  color: black;
+}
 
-#paragraaf1 
-{
+/* Submenu dat naar links uitschuift */
+ul .submenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Verberg het submenu standaard */
+  position: absolute;
+  top: 0;
+  right: 100%; /* Laat het submenu naar links uitschuiven */
+  background-color: cornflowerblue;
+  width: 150px;
+  padding: 20px 16px;
+  height: auto;
+}
+
+/* Submenu-items */
+ul .submenu li a {
+  background-color: cornflowerblue;
+  padding: 8px 16px;
+}
+
+/* Toon het submenu bij hover over het hoofdmenu-item */
+li:hover .submenu {
+  display: block;
+}
+
+/* Hover effect op submenu items */
+ul .submenu li a:hover {
+  background-color: steelblue;
+}
+
+/* Tweede submenu (subsubmenu) dat uit het eerste submenu uitschuift */
+ul .submenu .submenu {
+  top: 0;
+  right: 100%; /* Laat het tweede submenu naar links uitschuiven */
+  background-color: cornflowerblue;
+  display: none; /* Verberg het tweede submenu standaard */
+  min-width: max-content; /* Zorgt ervoor dat het minimaal zo breed is als de tekst */
+}
+
+/* Toon het tweede submenu (subsubmenu) alleen wanneer je over het specifieke submenu-item gaat */
+.submenu li:hover > .submenu {
+  display: block;
+}
+
+/* Voorkom dat het subsubmenu wordt weergegeven zodra je over een hoofdmenu-item zweeft */
+.submenu .submenu {
+  display: none; /* Blijft verborgen totdat er overheen wordt gehoverd */
+}
+
+.submenu li:hover > .submenu {
+  display: block; /* Subsubmenu wordt pas zichtbaar bij hover over submenu-item */
+}
+
+/* Titel van de pagina */
+h1 {
+  text-align: center;
+  text-transform: serif;
+  color: black;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+#paragraaf1, #paragraaf2, #paragraaf3, #paragraaf4 {
   background-color: royalblue;
-  color:white
+  color: white;
 }
-h2
-{
+
+h2 {
   font-weight: bold;
-  color:white
-}
-   
-#paragraaf2
-{
-  background-color: royalblue; 
-  color:white
+  color: white;
 }
 
-#paragraaf3
-{
-  background-color: royalblue; 
-  color:white
-}
-
-#paragraaf4
-{
-  background-color: royalblue; 
-  color:white
-}
-
-a:link, a:visited 
-{
+/* Stijl voor links */
+a:link, a:visited {
   background-color: cornflowerblue;
   color: black;
   padding: 14px 25px;
@@ -84,21 +115,17 @@ a:link, a:visited
   display: inline-block;
 }
 
-a:hover, a:active 
-{
-  background-color:steelblue;
+a:hover, a:active {
+  background-color: cornflowerblue;
 }
 
-img
-{
-  float:right
+/* Afbeelding uitlijning */
+img {
+  float: right;
 }
 
-#footer
-{
+/* Voettekst stijl */
+#footer {
   background-color: royalblue; 
-  color:white
+  color: white;
 }
-
-
-
