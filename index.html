@@ -3,15 +3,34 @@
 <html> 
 <head>
     <title>Informatica</title>
-    <link rel="stylesheet" type="text/css" href="opmaak.css">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="binairstelsel.html">Binair stelsel</a></li>
-        <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-        <li><a href="werkingcomputer.html">Werking computer</a></li>
-        <li><a href="compressietechnieken.html">Compressie</a></li>
-        <li><a href="Computerarchitectuur.html">Computerarchitectuur</a></li>
-    </ul>
+    <link rel="stylesheet" type="text/css" href="opmaak-dropdown.css">
+   <!--Menu-->
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="binairstelsel.html">Binairstelsel</a></li>
+    <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+    <li><a href="werkingcomputer.html">Werking computer</a></li>
+    <li><a href="compressietechnieken.html">Compressie</a></li>
+    <li><a href="Computerarchitectuur.html">Computerarchitectuur</a>
+          <ul class="submenu">
+            <li><a href="#">Toepassingen laag</a>
+                <ul class="submenu">
+                  <li><a href="#">sub</a></li>
+                </ul>  
+            </li>
+            <li><a href="#">Logische laag</a>
+              <ul class="submenu">
+                <li><a href="#">sub</a></li>
+              </ul>  
+          </li>
+            <li><a href="#">Fysieke laag</a>
+              <ul class="submenu">
+                <li><a href="#">sub</a></li>
+              </ul>  
+          </li>
+          </ul>
+    </li>
+  </ul>
 </head>
 
 <body>
