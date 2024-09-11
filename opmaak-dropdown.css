@@ -52,19 +52,6 @@ ul .submenu li a {
   padding: 8px 16px;
 }
 
-/* Tweede submenu dat uit het eerste submenu uitschuift */
-ul .submenu .submenu {
-  top: 0;
-  right: 100%; /* Het tweede submenu schuift naar links uit */
-  background-color: cornflowerblue;
-  display: none; /* Verberg het tweede submenu standaard */
-}
-
-/* Toon het tweede submenu bij hover op het submenu-item */
-.submenu li:hover > .submenu {
-  display: block;
-}
-
 /* Toon het submenu bij hover over het hoofdmenu-item */
 li:hover .submenu {
   display: block;
